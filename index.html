@@ -1,0 +1,137 @@
+<!--Pagina diseñada y escrita por Jorge Andrés Escobar Marmolejo-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>East500</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!--Fuentes de Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:ital,wght@0,300;0,400;1,400;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar">
+        <nav>
+            <ul>
+                <li id="navbartxt">EastGuitars</li>
+                <li class="navbaright"><a href="#2">Caracteristicas</a> </li>
+                <li class="navbaright"><a href="#3">Artistas</a></li>
+                <li class="navbaright"><a href="#4">Comparaciones</a></li>
+                <li class="navbaright"><a href="#5">Pre-Ordenar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>  
+        <!--Seccion 1 INTRODUCCION--><section id="Introduccion">
+            <h1 id="1">East500</h1>
+            <h2>Vive la acustica profesional</h2>
+        </section>
+                
+        <!--Seccion 2 CARACTERISTICAS--><section id="Caracteristicas">
+            <div class="titulo">
+                <br>
+                <h2 id="2">Caracteristicas</h2>
+                <br>
+            </div>
+            <div class="contenedor_caracteristicas">
+                <div class="caracteristica_guitarra">
+                    <h3>Madera Canadiense</h3>
+                    <img src="./assets/icon/madera_canada1.svg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis laboriosam eum nulla quis iure, autem sapiente ullam recusandae doloremque, consequatur dignissimos, non dolor cum modi officiis ea facilis minus cupiditate!</p>
+                </div>
+                <div class="caracteristica_guitarra">
+                    <h3>Acustica Natural</h3>
+                    <img id="img_acustica_natu" src="./assets/icon/acustica_2.svg" alt="">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit velit assumenda, dignissimos deserunt ut explicabo veritatis non ad recusandae officia eius nam necessitatibus, inventore maxime ratione animi cumque quibusdam debitis.</p>
+                </div>
+                <div class="caracteristica_guitarra">
+                    <h3>Versatil</h3>
+                    <img src="./assets/icon/versatil.svg" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam neque minus dicta voluptates quae aspernatur consectetur quam aliquid minima, corrupti ducimus deserunt quos inventore soluta libero illo perspiciatis dolor tempore!</p>
+                </div>
+            </div>
+            <div class="contenedor_audio">
+                <audio src="assets/sound/mixkit_guitarsong.mp3" controls></audio>
+            </div>
+        </section>
+        <!--Seccion 3 VIDEO--><section id="Artistas">
+            <h2 id="3">Artistas</h2>
+            <!--Por ahora se deja un video de stock como ejemplo-->
+            <div class="flex-box">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/jlr-EMU45uo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod voluptatum tempore doloremque deserunt perferendis fuga provident rem nisi nulla! Quia odit natus nemo nesciunt quis excepturi dignissimos, ipsum nam at.</p>  
+        </section>
+                
+        <!--Seccion 4 TABLA--><section id="Comparaciones">
+            <h2 id="4">Comparaciones</h2>
+            <div class="contenedor">
+                <table>
+                    <tr>
+                        <th class="no-border">Caracteristicas</th>
+                        <th>Guitar 1</th>
+                        <th>Guitar 2</th>
+                        <th>East-500</th>
+                    </tr>
+                    <tr>
+                        <td class="special-border">Madera importada</td>
+                        <td><img src="./assets/icon/not_icon.svg" alt="" class="yes_no_icon"></td>
+                        <td><img src="./assets/icon/not_icon.svg" alt="" class="yes_no_icon"></td>
+                        <td><img src="./assets/icon/yes_icon.svg" alt="" class="yes_no_icon"></td>
+                    </tr>
+                    <tr>
+                        <td class="special-border">Acustica Natural</td>
+                        <td><img src="./assets/icon/yes_icon.svg" alt="" class="yes_no_icon"></td>
+                        <td><img src="./assets/icon/not_icon.svg" alt="" class="yes_no_icon"></td>
+                        <td><img src="./assets/icon/yes_icon.svg" alt="" class="yes_no_icon"></td>
+                    </tr>
+                    <tr>
+                        <td class="special-border">Versatilidad <br> (Puerto Jack y perillas)</td>
+                        <td><img src="./assets/icon/not_icon.svg" alt="" class="yes_no_icon"></td>
+                        <td><img src="./assets/icon/not_icon.svg" alt="" class="yes_no_icon"></td>
+                        <td><img src="./assets/icon/yes_icon.svg" alt="" class="yes_no_icon"></td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+                
+        <!--Seccion 5 FORMULARIO--><section id="Pre-Ordenar">
+            <h2 id="5">Pre-Ordenar</h2>
+            <div class="flex-box">
+                <form action="">
+                    <label for="Name">Nombre</label>
+                    <br>
+                    <input id="Name" name="Name" type="text">
+                    <br>
+                    <label for="LastName">Apellido</label>
+                    <br>
+                    <input name="LastName" id="LastName" type="text">
+                    <br>
+                    <label for="email">Correo Electronico</label>
+                    <br>
+                    <input id="email" name="email" type="email">
+                    <br>
+                    <label for="opinion">Comentario</label>
+                    <br>
+                    <textarea name="opinion" id="opinion" cols="30" rows="10"></textarea>
+                    <br>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="info">
+            <h3>East-500</h3>
+            <em>Jorge Andrés Escobar</em>
+            <br>
+            <em>UNAD Programación Web</em>
+        </div>
+        <div class="info">
+            <br>
+            <em>Todas las imagenes, iconos y videos son de uso libre y su reconocimiento es para sus respectivos autores. <br> Las paginas empleadas fueron: Freepik, Flaticon, Mixkit, Unsplash</em>
+        </div>
+        </footer>
+</body>
+</html>

@@ -1,0 +1,605 @@
+
+/*Elementos globales*/
+p{
+    
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    margin: 0px;
+}
+
+/*Barra de navegación*/
+/*Texto principal*/
+header{
+margin-bottom: 0%;
+}
+#navbartxt{
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+    font-size: 70px;
+    text-align: center;
+
+}
+/*links y secciones de la pagina*/
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color:lightslategrey;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}   
+li a{
+    padding: 14px 16px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+/*Opcion para visualizar donde se pasa el cursor*/
+li a:hover{
+    background-color: gray;
+}
+
+
+/*sección 1*/
+#Introduccion{
+    margin-top: 0;
+    background-image: url("https://images.unsplash.com/photo-1591365437381-2db81d59f1e0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80");
+    height: 900px;
+    background-size: cover;
+}
+
+#Introduccion h1{
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+    padding-top: 300px;
+    font-size: 144px;
+    text-align: center;
+    margin: 0px;
+    text-shadow: 3px 5px rgb(49, 49, 49);
+}
+#Introduccion h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    text-shadow: 3px 5px rgb(59, 59, 59);
+}
+
+/*SECCION 2 CARACTERISTICAS*/
+#Caracteristicas{
+    height: max-content;
+    background-color: white;
+    padding-bottom: 40px;
+}
+#Caracteristicas h2{
+    font-family: 'Kaushan Script', cursive;
+    color: rgb(0, 0, 0);
+    font-size: 70px;
+    text-align: center;
+    margin: 0px;
+}
+.contenedor_caracteristicas {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.caracteristica_guitarra{
+    width: 33.3%;
+}
+.caracteristica_guitarra img{
+    width: 50%;
+    height: 400px;
+    padding-left: 27%;
+}
+.caracteristica_guitarra h3{
+    font-family: 'Kaushan Script', cursive;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    text-align: center;
+    margin: 0px;
+}
+.contenedor_audio{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*SECCION 3*/
+#Artistas{
+    background-color: #05AFF2;
+    padding-bottom: 40px;
+}
+#Artistas h2{
+
+    font-family: 'Kaushan Script', cursive;
+    color: #FFFFFF;
+    font-size: 70px;
+    text-align: center;
+    margin: 0px;
+}
+/*Flexbox para centrar el vídeo*/
+#Artistas .flex-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+#Artistas p{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+/*SECCION 4 TABLA*/
+#Comparaciones{
+    height: 700px;
+}
+#Comparaciones h2{
+    padding-top: 30px;
+    font-family: 'Kaushan Script', cursive;
+    color: #000000;
+    font-size: 70px;
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 90px;
+}
+/*Fuente de la tabla*/
+#Comparaciones th, td{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+}
+/*Ajuste de tamaño de iconos de si o no*/
+#Comparaciones .yes_no_icon{
+    height: 50px;
+}
+/*Ajuste de lineas y centrado usando position*/
+#Comparaciones .contenedor{
+    position: relative;
+    height: 300px;
+}
+#Comparaciones .contenedor table{
+    margin: 0;
+    position: absolute;
+    left: 15%;
+}
+
+/*Estilos aplicados a cada elemento de la tabla*/
+table{
+    border-collapse: collapse;
+    width: 70%;
+}
+table tr th{
+    border: 1px solid black;
+}
+table tr .no-border{
+    border: 0px solid black;
+}
+table tr td{
+    border: 1px solid black;
+}
+table tr .special-border{
+    border-left: 5px solid #2E0259;
+}
+    
+/*SECCION 5 PRE-ORDENAR*/
+#Pre-Ordenar{
+    background-color: #210240;
+    height: 700px;
+}
+#Pre-Ordenar label{
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+}
+#Pre-Ordenar h2{
+    font-family: 'Kaushan Script', cursive;
+    color: #FFFFFF;
+    font-size: 70px;
+    text-align: center;
+    margin: 0px;
+}
+#Pre-Ordenar .flex-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+#Pre-Ordenar input[type=text], input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 30px;
+}
+#Pre-Ordenar textarea{
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 30px;
+}
+#Pre-Ordenar input[type=submit]{
+    padding: 12px 20px;
+    border-radius: 30px;
+    background-color: #05AFF2;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+/*FOOTER*/
+footer{
+    background-color: #AEAEAEAE;
+    display: flex;
+}
+footer .info{
+    width: 50%;  
+    margin: 2px; 
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+footer h3{
+    padding-top: 20px;
+    font-family: 'Kaushan Script', cursive;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    margin: 0px;
+
+}
+footer em{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-size: 20px;
+}
+
+/*Media Queries para hacer responsiva la pagina*/
+
+
+/*CELULAR*/
+@media screen and (min-width: 480px) {
+    #Introduccion h1{
+        font-size: 15vw;
+    }
+    #Introduccion h2{
+        font-size: 5vw; 
+    }
+    ul{
+        background-color: rgb(19, 80, 104);
+    }
+    #Caracteristicas h2{
+        font-size: 50px;
+    }
+
+    .caracteristica_guitarra{
+        width: 80%;
+    }
+    .caracteristica_guitarra img{
+        height: 600px;
+        width: 85%;
+        padding-left: 8%;
+    }
+    .caracteristica_guitarra h3{
+
+        font-size: 45px;
+    }
+    .caracteristica_guitarra p {
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    #Artistas{
+        height: 700px;
+        padding-bottom: 80px;
+    }
+    #Artistas h2{
+        padding-top: 20px;
+        font-size: 50px;
+    }
+    /*Flexbox para centrar el vídeo*/
+    #Artistas .flex-box{
+        margin: 50px;
+    }
+    #Artistas p{
+        font-size: 24px;
+        margin: 24px;
+    }
+
+    #Comparaciones h2{
+        padding-top: 30px;
+        font-size: 50px;
+    }
+    #Comparaciones .contenedor table{
+        left: 7%;
+    }
+    #Comparaciones th, td {
+        font-size: 20px;
+    }
+
+    #Pre-Ordenar label{
+        font-size: 24px;
+    }
+    #Pre-Ordenar h2{
+        padding-top: 50px;
+        font-size: 50px;
+    }
+
+    footer{
+        background-color: #AEAEAEAE;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    footer .info{
+        width: 80%;  
+        margin: 5px; 
+        text-align: center;
+    }
+    footer h3{
+        padding-top: 20px;
+        font-size: 50px;
+        text-align: center;
+    
+    }
+}
+
+@media(min-width:540px){
+    #Comparaciones .contenedor table{
+        left: 15%;
+    }
+}
+
+
+/*TABLET*/
+@media(min-width:768px){
+    #navbartxt{
+        font-size: 50px;
+    }
+    ul{
+        background-color: rgb(87, 19, 104);
+    }
+    #Caracteristicas h2{
+        font-size: 50px;
+    }
+
+    .caracteristica_guitarra{
+        width: 80%;
+    }
+    .caracteristica_guitarra img{
+        height: 320px;
+        margin: 35px;
+        width: 75%;
+    }
+    .caracteristica_guitarra #img_acustica_natu{
+        display: block;
+        width: 70%;
+        }
+    .caracteristica_guitarra h3{
+
+        font-size: 45px;
+    }
+    .caracteristica_guitarra p {
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    #Artistas{
+        padding-bottom: 0px;
+    }
+    #Artistas h2{
+    
+        font-family: 'Kaushan Script', cursive;
+        color: #FFFFFF;
+        font-size: 50px;
+        text-align: center;
+        margin: 0px;
+    }
+    /*Flexbox para centrar el vídeo*/
+    #Artistas .flex-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 30px;
+    }
+    #Artistas p{
+        color: white;
+        text-align: center;
+        font-size: 24px;
+        padding-top: 24px;
+    }
+    #Pre-Ordenar h2{
+        font-size: 50px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/*COMPUTADOR*/
+@media screen and (min-width: 1024px) {
+    #Introduccion h1{
+        font-family: 'Kaushan Script', cursive;
+        color: white;
+        padding-top: 300px;
+        font-size: 144px;
+        text-align: center;
+        margin: 0px;
+        text-shadow: 3px 5px rgb(49, 49, 49);
+    }
+    #Introduccion h2{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 36px;
+        color: white;
+        text-align: center;
+        text-shadow: 3px 5px rgb(59, 59, 59);
+    }
+    /*Ajustes de tamaño a la letra*/
+    ul{
+        background-color: chocolate;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+
+     li a{
+        font-size: 20px;
+    }
+    #navbartxt{
+        font-family: 'Kaushan Script', cursive;
+        color: white;
+        font-size: 40px;
+        text-align: center;
+    }
+    .contenedor_caracteristicas {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    #Caracteristicas h2{
+        font-family: 'Kaushan Script', cursive;
+        color: rgb(0, 0, 0);
+        font-size: 70px;
+        text-align: center;
+        margin: 0px;
+    }
+    .caracteristica_guitarra{
+        width: 33.3%;
+    }
+    .caracteristica_guitarra img{
+        width: 75%;
+        height: 400px;
+        padding-left: 6%;
+    }
+    .caracteristica_guitarra h3{
+        font-family: 'Kaushan Script', cursive;
+        color: rgb(0, 0, 0);
+        font-size: 40px;
+        text-align: center;
+        margin: 0px;
+    }
+    .contenedor_audio{
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #Artistas{
+        background-color: #05AFF2;
+        padding-bottom: 40px;
+    }
+    #Artistas h2{
+    
+        font-family: 'Kaushan Script', cursive;
+        color: #FFFFFF;
+        font-size: 70px;
+        text-align: center;
+        margin: 0px;
+    }
+    /*Flexbox para centrar el vídeo*/
+    #Artistas .flex-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 30px;
+    }
+    #Artistas p{
+        color: white;
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    #Comparaciones h2{
+        padding-top: 30px;
+        font-size: 70px;
+        padding-bottom: 90px;
+    }
+    /*Fuente de la tabla*/
+    #Comparaciones th, td{
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(0, 0, 0);
+        font-size: 24px;
+        text-align: center;
+        padding: 10px;
+    }
+    /*Ajuste de tamaño de iconos de si o no*/
+    #Comparaciones .yes_no_icon{
+        height: 50px;
+    }
+    /*Ajuste de lineas y centrado usando position*/
+    #Comparaciones .contenedor{
+        position: relative;
+        height: 300px;
+    }
+    #Comparaciones .contenedor table{
+        margin: 0;
+        position: absolute;
+        left: 15%;
+    }
+        
+    /*SECCION 5 PRE-ORDENAR*/
+    #Pre-Ordenar{
+        background-color: #210240;
+        height: 700px;
+    }
+    #Pre-Ordenar label{
+        font-family: 'Montserrat', sans-serif;
+        color: #FFFFFF;
+        font-size: 24px;
+        text-align: center;
+        padding: 10px;
+    }
+    #Pre-Ordenar h2{
+        font-size: 70px;
+    }
+    #Pre-Ordenar .flex-box{
+        margin: 30px;
+        padding-right: 18px;
+    }
+    /*FOOTER*/
+    footer{
+        background-color: #AEAEAEAE;
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+    }
+    footer .info{
+        width: 100%;  
+        margin: 2px; 
+        text-align: left;
+    }
+    footer h3{
+        padding-top: 20px;
+        font-family: 'Kaushan Script', cursive;
+        color: rgb(0, 0, 0);
+        font-size: 40px;
+        margin: 0px;
+        text-align: left;
+    
+    }
+    footer em{
+        font-family: 'Montserrat', sans-serif;
+        color: #000000;
+        font-size: 20px;
+    } 
+}
